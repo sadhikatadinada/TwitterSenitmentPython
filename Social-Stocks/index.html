@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Social Stocks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation (Stays on Top) -->
+  <div class="w3-top w3-bar w3-black">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+
+  <!-- Start Content -->
+  <div id="home" class="w3-content">
+
+    <!-- Slides -->
+    <img class="slides" src="stocks.jpg" width="100%">
+    <img class="slides" src="stocks1.jpg" width="100%">
+    <img class="slides" src="stocks2.jpg" width="100%">
+    <script>
+      w3.slideshow(".slides", 1500);
+    </script>
+
+    <!-- About -->
+    <div id="about" class="w3-container w3-padding-32">
+      <h1 class="w3-center">Social Stocks</h1>
+      <p>Inspired by the GameStop incident; Social Stocks is an online platform which predicts stock prices based on the social media and market trends to prevent unwanted and sudden market crashes.</p>
+    </div>
+      
+      <h2 color:Tomato; style="border: 1px solid #CCC; font: Trebuchet MS;">Here's How it Works! </h2>
+      <p style="font: Trebuchet MS;">Pull Up the Console for the Best Experience</p>
+      
+      <iframe height="800px" width="100%" src="https://repl.it/@Haneesh25/Social-Stock?lite=true" scrolling="no" frameborder="no" allowtransparency="false" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+    
+    <!-- Contact -->
+    <div class="w3-center w3-padding-64" id="contact">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+    </div>
+
+    <form class="w3-container" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Subject</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-black">Send</button>
+    </form>
+
+    <div>
+
+      <div>
+        <br>
+        <img src="map.jpg" class="w3-image" style="width:100%">
+      </div>
+
+      <!-- End Content -->
+    </div>
+
+</body>
+
+</html>
