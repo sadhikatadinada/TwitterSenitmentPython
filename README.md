@@ -1,4 +1,4 @@
-# Read Me Template
+# Social Stock
 
 ![Project Image](https://media.istockphoto.com/photos/financial-and-technical-data-analysis-graph-picture-id1145882183?k=6&m=1145882183&s=612x612&w=0&h=ldt9o8xNcSq9NJU6jqIL5HWWqgOkd_xOk-VdKKZT7os=)
 
