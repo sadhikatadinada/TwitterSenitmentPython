@@ -39,9 +39,10 @@ This project is designed to graph the sentiment aanalysis of up to 1000 tweets o
 
 ---
 
-## Author Info
+## Team info
 
-- Instagram - [@haneesht25](https://www.instagram.com/haneesht25/)
-- Email - [Sai Haneesh Tummalapalli](shaneesht04@gmail.com)
+- Sai Haneesh Tummalapalli
+- Sadhika Tadinada
+- Anshuk Pokharna
 
 [Back To The Top](#read-me-template)
